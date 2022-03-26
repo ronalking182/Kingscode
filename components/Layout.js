@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from './Header'
 import Search from './Search'
+import MainNavigation from './layout/main-navigation'
+import Footer from './layout/footer'
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -11,16 +13,16 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name='description' content={description} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <Header />
-      <Search />
+      <MainNavigation/>
       <main className='container mx-auto my-7'>{children}</main>
+      <Footer/>
     </div>
   )
 }
 
+
 Layout.defaultProps = {
-  title: 'Welcome to DevSpace',
-  keywords: 'development, coding, programming',
-  description: 'The best info and news in development',
+  title: 'Welcome to KingsCode',
+  keywords: 'development, coding, programming, software development, coding tutorial',
+  description: 'The best info and news in programming',
 }

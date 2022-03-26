@@ -1,0 +1,138 @@
+.main_Container{
+    position: relative;
+    top:50px;
+    padding:1rem;
+    width:100vw;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+ 
+ 
+}
+
+
+
+
+.anything{
+    height:30%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+}
+.tag{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    padding:.5rem;
+    background: var(--card-background);
+    margin-bottom: 2.69rem;
+}
+.tag1{
+    border-radius: 10px;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 40px;
+    padding:.5rem;
+    background: var(--card-background);
+    margin-bottom: 0.7rem;
+}
+.input::placeholder{
+    padding:0.05rem 1rem;
+}
+
+.input_tag{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    margin:auto;
+}
+.input{
+    width: 70%;
+    height: 28px;
+    margin:auto;
+}
+
+.tag_class{
+    display:flex;
+    margin: 0.25rem;
+}
+
+.cat{
+    font-size:0.75rem;
+    background:var(--tag-color);
+    padding:.25rem;
+    color:#fff;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+
+.about{
+    font-size:0.75rem;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:0.2rem 0;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 0.9rem;
+}
+
+
+@media (min-width:768px) {
+    .main_Container{
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start !important;
+    justify-content:space-around !important;
+    }
+    
+    .ul{
+        width:130%;
+    }
+    .post{
+        overflow: hidden;
+        width:70%;
+    }
+  
+    .anything{
+        width:30%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:flex-start;
+    }
+   .tag{
+       padding: 0.7rem;
+       border-radius: 10px;
+       width: 100%;
+       height: 150px;
+       background: var(--card-background);
+       margin-bottom: 0.7rem;
+   }
+
+   .tag1{
+    display: flex;
+    padding: 0.7rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background: var(--card-background)
+}
+   .cat{
+    font-size:0.8rem;
+    padding:.5rem;
+}
+ 
+ }

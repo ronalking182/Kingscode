@@ -7,7 +7,7 @@ export default function Post({ post, compact }) {
     <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
       {!compact && (
         <Image
-          src={post.frontmatter.cover_image}
+          src={post.frontmatter.image}
           alt=''
           height={420}
           width={600}
@@ -35,16 +35,6 @@ export default function Post({ post, compact }) {
           <Link href={`/blog/${post.slug}`}>
             <a className='text-gray-900 hover:text-blue-600'>Read More</a>
           </Link>
-          <div className='flex items-center'>
-            <img
-              src={post.frontmatter.author_image}
-              alt=''
-              className='mx-4 w-10 h-10 object-cover rounded-full hidden sm:block'
-            />
-            <h3 className='text-gray-700 font-bold'>
-              {post.frontmatter.author}
-            </h3>
-          </div>
         </div>
       )}
     </div>

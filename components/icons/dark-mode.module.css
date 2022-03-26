@@ -1,0 +1,64 @@
+.toggle_theme_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .toggle_theme_wrapper span {
+    font-size: 15px;
+  }
+  
+  .toggle_theme {
+    position: relative;
+    display: inline-block;
+    height: 19px;
+    width: 27px;
+  }
+  
+  .toggle_theme input {
+    display: none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+    border-radius: 24px;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 10px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 10px;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(10px);
+  }
+  
+  input:checked + .slider {
+    background-color: cornflowerblue;
+  }
+  
+  .slider.round {
+    border-radius: 20px;
+  }
+
+  .menu{
+    width:30px;
+    height: 30px;
+  }
+  
+  
