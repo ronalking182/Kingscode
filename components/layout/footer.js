@@ -32,7 +32,7 @@ const Footer = ({categories}) => {
                 <li className={classes.li}> <Link href="/about">About</Link> </li>
                 <li className={classes.li}> <Link href="/blog">Post</Link> </li>
                 <li className={classes.li}> <Link href = "mailto: kingscode@gmail.com.com">Contact</Link> </li>
-                <li className={classes.li}> <Link href="/blog">Instagram</Link> </li>
+                <li className={classes.li}> <Link href="https://www.instagram.com/king_scode/">Instagram</Link> </li>
             </ul>
            </span>
        </span>
