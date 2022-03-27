@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout'
+import Courses from '@/components/layout/courses'
 import { getPosts } from '@/lib/posts'
 import MainPosts from '../components/home-page/main-post'
 
@@ -6,6 +7,7 @@ import MainPosts from '../components/home-page/main-post'
 export default function HomePage({ posts, categories}) {
   return (
     <Layout>
+      <Courses categories={categories}/>
 <MainPosts posts={posts} categories={categories}/>
     </Layout>
   )
