@@ -118,12 +118,16 @@ body {
 }
 
 pre {
+width:100%;
   background-color: var(--code-color);
   padding:1rem;
   padding-left:0.3rem;
   margin:20px 0;
+  overflow-x:scroll;
   border-radius:10px;
 }
+
+
 
 h1,
 h2,

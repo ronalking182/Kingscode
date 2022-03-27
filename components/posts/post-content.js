@@ -21,7 +21,7 @@ const PostContent = ({content, categories,  title, image,}) => {
       <div className={classes.whole_post}>
             <article className={classes.article}>
          <PostHeader title={title} image={image}  />
-         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+         <div dangerouslySetInnerHTML={{ __html: marked(content) }} className={classes.con}></div>
           </article>
           <div className={classes.post_tag}>
           <span className={classes.tag}>

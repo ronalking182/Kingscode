@@ -1,7 +1,8 @@
 import classes from './main-post.module.css'
 import MainPostItem from './main-post-item'
 import Link from 'next/link'
-const MainPost = ({posts,}) => {
+import Pagination from '@/components/Pagination'
+const MainPost = ({posts, currentPage, numPages}) => {
 
   return (
     <>
@@ -25,6 +26,7 @@ const MainPost = ({posts,}) => {
           </span>
         </span>
     </div>
+   {numPages && <Pagination currentPage={currentPage} numPages={numPages} /> } 
     <Link href='/blog'>
     <a className='block text-center border border-gray-500 text-gray-800 rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow-outline w-full'>
       All Posts

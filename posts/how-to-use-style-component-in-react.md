@@ -11,9 +11,12 @@ category: 'CSS'
 
 
 
-Styled components is a CSS-in-JS tool that bridges the gap between components and styling, with a variety of features to get you started styling components in a reusable and effective way. In this post, you'll discover the fundamentals of styled components and how to use them effectively in your React apps. Before starting this tutorial, you should have some experience with React. Check out our prior post on the subject if you're seeking for more styling possibilities for React components.
+Styled components is a CSS-in-JS tool that bridges the gap between components and styling, with a variety of features to get you started styling components in a reusable and effective way. 
 
-### **Why Styled Components?**
+In this post, you'll discover the fundamentals of styled components and how to use them effectively in your React apps. Before starting this tutorial, you should have some experience with React. Check out our prior post on the subject if you're seeking for more styling possibilities for React components.
+
+
+## **Why Styled Components?**
 
 Styled components have the following benefits in addition to assisting you with scoping styles:
 
