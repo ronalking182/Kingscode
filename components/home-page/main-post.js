@@ -12,7 +12,7 @@ const MainPost = ({posts}) => {
                 <span className={classes.list_post}>
                 <ul className={classes.ul} >
             {posts.map((post, index) =>{
-              return<MainPostItem  post={post}/>
+              return<MainPostItem  key={index} post={post}/>
             })}
             </ul>
             </span>
