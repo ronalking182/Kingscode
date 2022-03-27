@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function CategoryList({ categories }) {
   return (
-    <div className='px-3 py-8'>
+    <div className='px-3 mt-8 py-8'>
       <h3 className='text-2xl bg-gray-800 text-white p-3 rounded'>
         Blog Categories
       </h3>

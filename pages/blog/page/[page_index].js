@@ -11,7 +11,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
           <CategoryList categories={categories} />
-        <MainPost posts={posts}/>
+        <MainPost posts={posts} currentPage={currentPage} numPages={numPages}/>
           <Pagination currentPage={currentPage} numPages={numPages} />
     </Layout>
   )

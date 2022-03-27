@@ -15,7 +15,10 @@ const MainPostItem = ({post, compact}) => {
                 <p className={classes.p}>
                 {post.frontmatter.excerpt}
                 </p>
+                <span className={classes.link}>
+                <button className={classes.btn} ><Link href={`/blog/${post.slug}`}><a> Read More </a></Link></button>
                 <p className={classes.tag}><CategoryLabel>{post.frontmatter.category}</CategoryLabel></p>
+                </span>
             </div>
         </div>)
     }

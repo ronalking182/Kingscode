@@ -82,7 +82,7 @@
   --link-color:#0a0a0a !important;
   --font-color:#222525;
   --heading-color:#232323;
-  --button-color:#f45d48;
+  --button-color:#0e77ee;
   --logo-color:#0e77ee;
   --layout-color:hsl(276, 5%, 20%);
   --post:whitesmoke;
@@ -148,9 +148,9 @@ button {
   cursor: pointer;
   background-color:var(--button-color);
   display: inline-block;
-  padding: 5px 10px;
+  padding: 4px 8px;
   border-radius: 3px;
-  font-weight: 700;
+  font-weight: 500;
   border:none;
 }
 

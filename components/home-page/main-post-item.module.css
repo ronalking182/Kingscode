@@ -28,7 +28,7 @@
 }
 
 .p{
-    font-size:0.7rem !important;
+    font-size:0.85rem !important;
 }
 .h3{
     font-size:0.8rem;
@@ -59,8 +59,14 @@
     width:25%;
 
 }
+.link{
+    display:flex;
+}
 
-
+.btn{
+    margin:0.3rem;
+    font-size: 0.7rem;
+}
 
 
 
