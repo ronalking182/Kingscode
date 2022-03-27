@@ -8,11 +8,16 @@
   height: 40px;
   display:flex;
   padding:0 1rem;
+  display:flex;
+  flex-direction:row;
   align-items: center;
   justify-content: space-between;
 }
 
 
+.show{
+  display:flex;
+}
 
  .ham{
   display:flex !important;
@@ -35,7 +40,12 @@ flex-direction: column;
 }
 
 .ul{
-  display:none;
+  width:100vw;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: nowrap; 
+  overflow-x: auto;
   list-style: none;
 }
 
