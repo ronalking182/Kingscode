@@ -44,10 +44,7 @@
 .footer{
     background:green;
     height: 350px;
-    /* height: auto; */
-    /* width:100vw; */
-    /* height: 250px;
-    /* background: blue; */
+
 }
 
 
@@ -70,6 +67,8 @@
     flex-direction: row;
     align-items:flex-start !important;
     justify-content:space-around !important;
+    position: relative;
+    top:90px;
     }
     
 

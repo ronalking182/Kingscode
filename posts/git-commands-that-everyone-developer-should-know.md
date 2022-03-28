@@ -2,7 +2,7 @@
 title: "Git Commands That Everyone Developer Should Know"
 image: '/images/posts/git-commands-that-everyone-developer-should-know/git-commands-that-everyone-developer-should-know.jpg'
 excerpt: 'Git is know for it tree like structure ,Where you branch off from a code base in other to make you changes and then merge them back in at another location.Git will help you see the differences between two branches and help you merge them together.' 
-date: '2022-03-8'
+date: '2022-26-03'
 slug: 'git-commands-that-everyone-developer-should-know'
 isFeatured: true
 category: 'Git'

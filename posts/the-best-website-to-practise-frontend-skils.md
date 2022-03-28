@@ -2,7 +2,7 @@
 title: "The Best Website To Practice FrontEnd Skills"
 image: '/images/posts/the-best-website-to-practice-frontend-skills/the-best-website-to-practice-frontend-skills.jpg'
 excerpt: Solving real-world problems and participating in real-world initiatives are the best ways to learn how to code. 
-date: '2022-03-9'
+date: '2022-28-03'
 slug: 'the-best-website-to-practice-frontend-skills'
 isFeatured: false
 category: 'Blog'

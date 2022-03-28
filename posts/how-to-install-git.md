@@ -3,7 +3,7 @@ title: "How To Install Git"
 image: '/images/posts/how-to-install-git/how-to-install-git.jpg'
 excerpt: 'Git is known for its tree-like structure, which allows you to branch off from a code base to make changes and then merge them back in.
 Git will show you the differences between two branches and will assist you in merging them.' 
-date: '2022-03-7'
+date: '2022-23-03'
 slug: 'how-to-install-git'
 isFeatured: false
 category: 'Git'

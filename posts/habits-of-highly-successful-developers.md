@@ -2,7 +2,7 @@
 title: "Habits of highly successful Developers"
 image: '/images/posts/habits-of-highly-successful-developers/habits-of-highly-successful-developers.jpg'
 excerpt: 'If you want to advance professionally as a developer and/or software engineer this year, you should focus on these eight areas.' 
-date: '2022-03-8'
+date: '2022-25-03'
 slug: 'habits-of-successful-developers'
 isFeatured: true
 category: 'Blog'
