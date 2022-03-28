@@ -14,10 +14,10 @@ export default function Layout({ title, keywords, description, children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <MainNavigation/>
-      <main >
+      <main>
         {children}
-      </main>
       <Footer/>
+      </main>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Link from 'next/link'
 const MainPost = ({posts, currentPage, numPages}) => {
 
   return (
-    <>
+    // <>
       <div className={classes.main_Container}>
         <span className={classes.post}>
         <h1 className='text-5xl  p-5 font-bold'>Latest Posts</h1>
@@ -26,13 +26,16 @@ const MainPost = ({posts, currentPage, numPages}) => {
           </span>
         </span>
     </div> 
-    <Link href='/blog'>
-    <a className='block text-center border border-gray-500 text-gray-800 rounded-md py-4 my-12 transition duration-500 ease select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow-outline w-full'>
-      All Posts
-    </a>
-  </Link>
-  </>
+  // {/* </> */}
   )
 }
+
+{/* <div className={classes.shd}>
+<Link href='/blog' className={classes.abt}>
+<a className='block text-center border border-gray-500 text-gray-800 rounded-md py-4 mb-5 mt-20  transition duration-500 ease select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow-outline w-full '>
+  All Posts
+</a>
+</Link>
+</div> */}
 
 export default MainPost
