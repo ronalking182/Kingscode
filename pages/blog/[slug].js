@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Link from 'next/link'
+import Head from 'next/head';
 import Layout from '@/components/Layout'
 import PostContent from '../../components/posts/post-content'
 import { getPosts } from '@/lib/posts'
@@ -11,7 +12,11 @@ export default function PostPage({
 
   
   return (
-    <Layout title={title}>
+    <Layout>
+      <Head>
+        <title>{title}</title>
+        <meta name='description' content={excerpt} />
+      </Head>
       <Link href='/blog'>Go Back</Link>
       <PostContent 
       slug={slug}

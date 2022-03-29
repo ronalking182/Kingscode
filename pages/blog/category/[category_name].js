@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import Head from 'next/head';
 import Layout from '@/components/Layout'
 import CategoryList from '@/components/CategoryList'
 import matter from 'gray-matter'
@@ -9,6 +10,13 @@ import MainPost from '@/components/home-page/main-post'
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
   return (
     <Layout>
+      <Head>
+        <title>All Posts</title>
+        <meta
+          name='description'
+          content='A list of all programming-related tutorials and posts!'
+        />
+      </Head>
           <CategoryList categories={categories} />
             <MainPost posts={posts}/>
     </Layout>

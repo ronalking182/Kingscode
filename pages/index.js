@@ -2,15 +2,20 @@ import Layout from '@/components/Layout'
 import Courses from '@/components/layout/courses'
 import { getPosts } from '@/lib/posts'
 import MainPosts from '../components/home-page/main-post'
-import Footer from '../components/layout/footer'
-
+import Head from 'next/head';
 
 export default function HomePage({ posts, categories}) {
   return (
     <Layout>
+      <Head>
+        <title>KingsCod Home Page</title>
+        <meta
+          name='description'
+          content='I post about anything relating to programming and web development.'
+        />
+      </Head>
       <Courses categories={categories}/>
 <MainPosts posts={posts} categories={categories}/>
-{/* <Footer/> */}
     </Layout>
   )
 }
