@@ -4,6 +4,7 @@ image: "/images/posts/java/java.jpeg"
 excerpt: 'With this article, I will share with you  how to create a method  you can use to improve your java program performance and architecture.' 
 date: '2022-27-03'
 slug: 'how-to-sum-an-array-in-java'
+keywords: 'how to sum an array in java adding an array in java'
 isFeatured: false
 category: 'Java'
 ---

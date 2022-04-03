@@ -4,6 +4,7 @@ image: "/images/posts/java/java.jpeg"
 excerpt: 'With this article, I will share with you  how to create a method  you can use to improve your java program performance and architecture.' 
 date: '2022-27-03'
 slug: 'how-to-create-a-method-in-java'
+keywords: 'java method, java method example, java method definition'
 isFeatured: false
 category: 'Java'
 ---

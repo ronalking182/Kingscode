@@ -4,6 +4,7 @@ image: "/images/posts/java/java.jpeg"
 excerpt: 'To develop a method that retrieves the greatest value in an array, you must first understand how to create a method.' 
 date: '2022-27-03'
 slug: 'finding-the-highest-and-the-lowest-value-in-an-array-in-java'
+keywords: 'Finding The Highest And The Lowest value In An Array In Java'
 isFeatured: false
 category: 'Java'
 ---

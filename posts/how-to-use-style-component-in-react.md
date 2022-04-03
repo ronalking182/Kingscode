@@ -4,6 +4,7 @@ image: '/images/posts/style-component/style-component.png'
 excerpt: 'Styled components is a CSS-in-JS tool that bridges the gap between components and styling, with a variety of features to get you started styling components in a reusable and effective way.' 
 date: '2022-26-03'
 slug: 'how-to-use-style-component-in-react'
+keywords: 'style component react, react style component'
 isFeatured: false
 category: 'CSS'
 ---

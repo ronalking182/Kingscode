@@ -5,6 +5,7 @@ excerpt: 'Git is known for its tree-like structure, which allows you to branch o
 Git will show you the differences between two branches and will assist you in merging them.' 
 date: '2022-23-03'
 slug: 'how-to-install-git'
+keywords: 'install git,install git windows,install git on mac,install git on windows,install git bash,how to install git, install git mac'
 isFeatured: false
 category: 'Git'
 ---

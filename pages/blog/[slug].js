@@ -8,7 +8,7 @@ import PostContent from '../../components/posts/post-content'
 import { getPosts } from '@/lib/posts'
 
 export default function PostPage({
-  frontmatter: { title, date, image,  }, content,  slug, categories}) {
+  frontmatter: { title, date, image, keywords }, content,  slug, categories}) {
 
   
   return (
@@ -16,6 +16,7 @@ export default function PostPage({
       <Head>
         <title>{title}</title>
         <meta name='description' content={excerpt} />
+        <meta name='keywords' content={keywords} />
       </Head>
       <Link href='/blog'>Go Back</Link>
       <PostContent 

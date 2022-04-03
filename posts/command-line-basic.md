@@ -4,6 +4,7 @@ image: '/images/posts/command-line-basic/command-line-basic.jpg'
 excerpt: 'Git is know for it tree like structure ,Where you branch off from a code base in other to make you changes and then merge them back in at another location.Git will help you see the differences between two branches and help you merge them together.' 
 date: '2022-25-03'
 slug: 'command-line-basic'
+keywords: 'command line, command line interface bash command line arguments, mac command line, command line commands,command line basic'
 isFeatured: false
 category: 'Blog'
 ---

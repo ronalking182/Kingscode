@@ -4,6 +4,7 @@ image: "/images/posts/java/java.jpeg"
 excerpt: 'With this article, I will share with you  how to calculate the average of an array in Java using a method.' 
 date: '2022-27-03'
 slug: 'calculating-the-average-of-an-array-in-java'
+keywords: 'how to find the average of an array in java, how to get the average of an array in java'
 isFeatured: false
 category: 'Java'
 ---
