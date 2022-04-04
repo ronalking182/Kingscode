@@ -1,6 +1,0 @@
-Sitemap: https://www.kingscod.com/api/posts-sitemap
-
-User-agent: *
-Allow: /*
-
-Disallow: /api/*
