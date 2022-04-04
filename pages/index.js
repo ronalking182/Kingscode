@@ -13,7 +13,8 @@ export default function HomePage({ posts, categories}) {
           name='description'
           content='I post about anything relating to programming and web development.'
         />
-<meta name="google-site-verification" content="VZ2m0VG6-L60WpkK2IfZ-97um5R6fu2-OfpoQJcKgx4" />      </Head>
+         <meta name="google-site-verification" content="VZ2m0VG6-L60WpkK2IfZ-97um5R6fu2-OfpoQJcKgx4" />
+         </Head>
       <Courses categories={categories}/>
 <MainPosts posts={posts} categories={categories}/>
     </Layout>
