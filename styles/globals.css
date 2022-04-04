@@ -124,9 +124,10 @@ width:100%;
   padding:1rem;
   padding-left:0.3rem;
   margin:20px 0;
-  overflow-x:scroll;
+  overflow:scroll !important;
   border-radius:10px;
 }
+
 
 
 
