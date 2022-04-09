@@ -31,10 +31,11 @@ export default (req, res) => {
   const results = posts.filter(
     ({ frontmatter: { title, excerpt, category } }) =>
       title.toLowerCase().indexOf(req.query.q) != -1 ||
-      title.toUpperCase().indexOf(req.query.q) != -1 ||
+      (title.charAt(0).toUpperCase() + title.slice(1)).indexOf(req.query.q) != -1 ||
       excerpt.toLowerCase().indexOf(req.query.q) != -1 ||
       category.toLowerCase().indexOf(req.query.q) != -1 ||
-      category.toUpperCase().indexOf(req.query.q) != -1 
+      (category.charAt(0).toUpperCase() + category.slice(1)).indexOf(req.query.q) != -1 
+      
   )
 
   res.status(200).json(JSON.stringify({ results }))
