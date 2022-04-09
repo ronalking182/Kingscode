@@ -1,8 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://kingscod.com</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.kingscod.com/</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/about</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/category/css</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/category/java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/category/blog</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/category/git</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/how-to-create-dark-mode-in-react</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/Java-string-format-method-explained</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/java-printf-method</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/loops-in-Java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/conditional-statement-in-Java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/presedence-of-operator</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/how-to-use-style-component-in-react</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/introduction-to-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/operator-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/creating-a-java-project-in-vscode</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/setting-up-vs-code-for-java-development</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/variable-and-data-type-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/calculating-the-average-of-an-array-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/finding-the-highest-and-the-lowest-value-in-an-array-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/how-to-create-a-method-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/how-to-sum-an-array-in-java</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/the-best-website-to-practise-frontend-skils</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/command-line-basic</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/habits-of-highly-successful-developers</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/git-commands-that-everyone-developer-should-know</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.kingscod.com/blog/how-to-install-git</loc>
+  <lastmod>2022-04-09T21:24:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
