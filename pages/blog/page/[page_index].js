@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import Layout from '@/components/Layout'
+import Head from 'next/head';
 import Pagination from '@/components/Pagination'
 import CategoryList from '@/components/CategoryList'
 import { POSTS_PER_PAGE } from '@/config/index'
@@ -11,6 +12,14 @@ import Courses from '../../../components/layout/courses'
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
+       <Head>
+        <title>KingsCod blog page</title>
+        <meta
+          name='description'
+          content='blog post relating to programming and web development, productivity and anything coding.'
+        />
+         <meta name="google-site-verification" content="VZ2m0VG6-L60WpkK2IfZ-97um5R6fu2-OfpoQJcKgx4" />
+         </Head>
           <Courses categories={categories}/>
         <MainPost posts={posts} currentPage={currentPage} numPages={numPages}/>
           <Pagination currentPage={currentPage} numPages={numPages} />
