@@ -13,7 +13,9 @@ category: 'Git'
 <aside>Git is  software for tracking changes in your code base so you can collaborate with other developer. 
 </aside>
 
-Before moving forward it is my assumption that you already have git installed on your device, if not [click here to check how to install git]('http://kingscod.com/blog/how-to-install-git')  and also that  you have a basic knowledge of the command line, if not [check out the basic of command line]('http://kingscod.com/blog/command-line-basic')
+&nbsp;
+
+Before moving forward it is my assumption that you already have git installed on your device, if not [click here to check how to install git](https://www.kingscod.com/blog/how-to-install-git)  and also that  you have a basic knowledge of the command line, if not [check out the basic of command line](https://www.kingscod.com/blog/command-line-basic)
 
 ## **Working with local repositories**
 

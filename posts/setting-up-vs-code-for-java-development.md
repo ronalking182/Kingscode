@@ -11,7 +11,7 @@ category: 'Java'
 
 How to develop and run a Hello World program in Java using Visual Studio Code is explained in this lesson.
 
-To quickly start I would suggest you get vsCode installed through  this [link]([https://code.visualstudio.com/download](https://code.visualstudio.com/download)) if you 
+To quickly start I would suggest you get vsCode installed through  this [link](https://code.visualstudio.com/download) if you 
 don’t already have it.
 
 &nbsp;
@@ -21,6 +21,7 @@ don’t already have it.
 Instead of installing Vscode from scratch, you can use the Coding Pack for Java, which includes VS Code, JDK, and other necessary Java extensions.
 
 -for windows:[windows](https://aka.ms/vscode-java-installer-win)
+
 -for mac:[mac](https://aka.ms/vscode-java-installer-mac)
 
 &nbsp;
@@ -85,4 +86,4 @@ Once you have  vsCode installed, follow the following steps
 
 And there you have it 💥 🎉, Your java file. 
 
-To create a Java project, check out my [article ](https://www.kingscod.com/blog/creating-a-java-project-in-vsCode) on how to create a java project
+To create a Java project, check out my [article ](https://www.kingscod.com/blog/creating-a-java-project-in-vscode) on how to create a java project
