@@ -2,7 +2,6 @@ import fs from 'fs'
 import path from 'path'
 import Head from 'next/head';
 import Layout from '@/components/Layout'
-// import CategoryList from '@/components/CategoryList'
 import matter from 'gray-matter'
 import { getPosts } from '@/lib/posts'
 import SearchResults from '../../../components/SearchResults'
@@ -10,8 +9,6 @@ import classes from '../../../components/home-page/main-post.module.css'
 import Post from '../../../components/Post'
 import { useState, useEffect } from 'react'
 import { FaSearch } from 'react-icons/fa'
-// import SearchResults from '../../../components/Search'
-// import MainPost from '@/components/home-page/main-post'
 import Courses from '../../../components/layout/courses'
 
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
@@ -31,6 +28,15 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
 
     getResults()
   }, [searchTerm])
+
+  const clearContent = (e) =>{
+    e.preventDefault()
+    if(searchTerm.length > 0){
+      setSearchTerm('')
+      setSearchResults([])
+    }
+  }
+
 
   return (
     <Layout>
@@ -64,8 +70,10 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder='Search Posts...'
             />
-
             <FaSearch className='absolute top-0 right-0 text-black mt-3 mr-4' />
+          <button onClick={clearContent}
+            className={classes.btnClearX}
+            >clear</button>
           </form>
         </div>
         </div>
@@ -73,15 +81,8 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
           <span className={searchResults.length  === 0  ? `${classes.taxN}` : `${classes.tagX}`}>
             <SearchResults results={searchResults} />
           </span>
-          {/* <span className={classes.tag}>
-            <p className={classes.about}> 
-            <h4>About</h4>
-            I &rsquo;m a computer science student with a diverse set of software and web development skills. Web programming is a hobby of mine that I can never get enough of... <Link href='/about'><a>read more</a></Link>
-            </p>
-          </span> */}
         </span>
       </div>
-            {/* <MainPost posts={posts}/> */}
     </Layout>
   )
 }

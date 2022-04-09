@@ -62,8 +62,8 @@ export default function HomePage({ posts, categories}) {
  <span className={classes.anything}>
  <span className={classes.tagXX}>
           <div className='container mx-auto flex items-center justify-center  md:justify-center'>
-          <div className='relative text-gray-600 w-80 flex justify-center'>
-          <form className={classes.btnClear}>
+          <div className='relative text-gray-600 w-72 flex justify-center'>
+          <form >
             <input
               type='search'
               name='search'
@@ -74,7 +74,7 @@ export default function HomePage({ posts, categories}) {
               placeholder='Search Posts...'
             />
 
-            <FaSearch className='absolute top-0 right-14 text-black mt-3 mr-4' />
+            <FaSearch className='absolute top-0 right-0 text-black mt-3 mr-4' />
             <button onClick={clearContent}
             className={classes.btnClearX}
             >clear</button>
