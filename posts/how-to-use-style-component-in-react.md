@@ -2,7 +2,7 @@
 title: "How to use Style component in React"
 image: '/images/posts/style-component/style-component.png'
 excerpt: 'Styled components is a CSS-in-JS tool that bridges the gap between components and styling, with a variety of features to get you started styling components in a reusable and effective way.' 
-date: '2022-26-03'
+date: '2022-03-26'
 slug: 'how-to-use-style-component-in-react'
 keywords: 'style component react, react style component'
 isFeatured: false
@@ -16,14 +16,19 @@ Styled components is a CSS-in-JS tool that bridges the gap between components an
 
 In this post, you'll discover the fundamentals of styled components and how to use them effectively in your React apps. Before starting this tutorial, you should have some experience with React. Check out our prior post on the subject if you're seeking for more styling possibilities for React components.
 
+&nbsp;
 
 ## **Why Styled Components?**
 
 Styled components have the following benefits in addition to assisting you with scoping styles:
 
 1. Automatic prefixing of vendors:Standard CSS properties can be used, and styled components will add vendor prefixes as necessary. 
+
 2. Class names that are unique:Styled components are self-contained, and you won't have to bother about their names because the library will take care of that.
+
 3. Styles that are no longer relevant are removed:Even if the styles are declared in your code, styled components delete them.
+
+&nbsp;
 
 ### **Installation**
 
@@ -38,6 +43,8 @@ or npm
 ```
 npm i styled-components
 ```
+
+&nbsp;
 
 ## **Starting Out**
 
@@ -59,11 +66,13 @@ function Component() {
 }
 ```
 
+&nbsp;
+
 It Basically just creating a variable and equating it to `styled`    then a full stop “.” and then any HTML tag you want to render your  text with. 
 
-Here, `Paragraph` is the styled component, and it will be rendered as an HTML “p” tag with the contained styles. `styled`  is an internal utility method that transforms the styling from JavaScript into actual CSS.
+&nbsp;
 
-In raw HTML and CSS, we would have this:
+Here, `Paragraph` is the styled component, and it will be rendered as an HTML “p” tag with the contained styles. `styled`  is an internal utility method that transforms the styling from JavaScript into actual CSS. In raw HTML and CSS, we would have this:
 
 ```jsx
 p {
@@ -75,7 +84,12 @@ p {
 <p> Hello </p>
 ```
 
+&nbsp;
+
+
 Can we utilize props if styled components are React components? Yes, we certainly can.
+
+&nbsp;
 
 **Adapting Based On Props**
 
@@ -103,9 +117,9 @@ function Profile() {
 }
 ```
 
-Because `StyledButton` is a React component that accepts props, we can assign a different background color based on the existence or value of the `bg` prop.
+&nbsp;
 
-You’ll notice, though, that we haven’t given our button a `type`. Let’s do that:
+Because `StyledButton` is a React component that accepts props, we can assign a different background color based on the existence or value of the `bg` prop.You’ll notice, though, that we haven’t given our button a `type`. Let’s do that:
 
 ```jsx
 function Profile() {
@@ -121,10 +135,13 @@ function Profile() {
   );
 }
 ```
+&nbsp;
 
-Styled components can differentiate between the types of props they receive. They know that `type` is an HTML attribute, so they actually render `<button type="button">Button A</button>`, while using the `bg` prop in their own processing. Notice how we attached an event handler, too?
 
-Speaking of attributes, an extended syntax lets us manage props using the `[attrs`](https://styled-components.com/docs/api#attrs) constructor Check this out:
+Styled components can differentiate between the types of props they receive. They know that `type` is an HTML attribute, so they actually render `<button type="button">Button A</button>`, while using the `bg` prop in their own processing. Notice how we attached an event handler, too? Speaking of attributes, an extended syntax lets us manage props using the [attrs](https://styled-components.com/docs/api#attrs) constructor Check this out:
+
+&nbsp;
+
 
 ```jsx
 const StyledContainer = styled.section.attrs((props) => ({
@@ -137,14 +154,23 @@ const StyledContainer = styled.section.attrs((props) => ({
     (props.hasPadding && "var(--container-padding)") || "none"};
 `;
 ```
+&nbsp;
+
 
 Notice how we don’t need a ternary when setting the width? That’s because we’ve already set a default for it with `width: props.width || "100%",`. Also, we used CSS custom properties  because we can!
 
-Note: If styled components are React components, and we can pass props, then can we also use states? The library’s GitHub account has an issue addressing this very matter.
+&nbsp;
+
+<aside>Note: If styled components are React components, and we can pass props, then can we also use states? The library’s GitHub account has an issue addressing this very matter.
+</aside>
+
+&nbsp;
 
 ### EXTENDING STYLES
 
 Let's imagine you're working on a landing page and you've set your container's max-width to a specific value to keep things centered. You have a `StyledContainer` for that:
+
+&nbsp;
 
 ```jsx
 const StyledContainer = styled.section`
@@ -153,6 +179,8 @@ const StyledContainer = styled.section`
   margin: 0 auto;
 `;
 ```
+
+&nbsp;
 
 Then you realize that instead of 20 pixels of padding on both sides, you need a smaller container with 10 pixels of padding on both sides. Your initial instinct may be to create another styled component, and you'd be correct, but it won't take long for you to notice you're duplicating styles.
 
@@ -169,6 +197,8 @@ const StyledSmallContainer = styled.section`
   margin: 0 auto;
 `;
 ```
+
+&nbsp;
 
 Before you go ahead and create `StyledSmallContainer`, like in the snippet above, let’s learn the way to reuse and inherit styles. It’s more or less like how the `spread` operator works:
 
@@ -201,7 +231,12 @@ function Contact() {
 }
 ```
 
+&nbsp;
+
 In your `StyledSmallContainer`, you’ll get all of the styles from `StyledContainer`, but the padding will be overridden. Keep in mind that, ordinarily, you’ll get a section element rendered for `StyledSmallContainer`, because that’s what `StyledContainer` renders. But that doesn’t mean it’s carved in stone or unchangeable.
+
+&nbsp;
+
 
 ### THE “AS” POLYMORPHIC PROP
 
@@ -225,6 +260,8 @@ function Contact() {
 }
 ```
 
+&nbsp;
+
 Now, `StyledSmallContainer` will be rendered as a `div`. You could even have a custom component as your value:
 
 ```jsx
@@ -244,6 +281,8 @@ function Contact() {
   );
 }
 ```
+
+&nbsp;
 
 ### SCSS-LIKE SYNTAX
 
@@ -281,6 +320,9 @@ function ProfileCard() {
 }
 ```
 
+&nbsp;
+
+
 ### ANIMATION
 
 Styled components have a `keyframes` helper that assists with constructing (reusable) animation keyframes. The advantage here is that the keyframes will be detached from the styled components and can be exported and reused wherever needed.
@@ -306,6 +348,8 @@ const Toast = styled.div`
 `;
 ```
 
+&nbsp;
+
 ### CSS HELPER
 
 We've already shown how to change styles based on props. What if we wanted to take things a step further? This is made possible through the CSS helper function. Assume we have two text-input fields, each with a different color and two states: empty and active. This is something we can do:
@@ -324,6 +368,8 @@ const StyledTextField = styled.input`
     props.isEmpty ? "none" : props.active ? "purple" : "blue"};
 `;
 ```
+
+&nbsp;
 
 Now the ternary operation is growing in complexity. What if we add another state to our text-input fields later on? Or what if we want to give each state additional styles, other than color? Can you imagine cramping the styles into the ternary operation? The `css` helper comes in handy.
 
@@ -345,6 +391,8 @@ const StyledTextField = styled.input`
       `)}
 `;
 ```
+
+&nbsp;
 
 We've improved our ternary syntax to accept additional styles, while also making it more comprehensible and organized. If the preceding statement appears to be incorrect, it is because the code is attempting to accomplish too much. So, let's take a step back and fine-tune:
 
@@ -380,7 +428,11 @@ ${(props) =>
 `;
 ```
 
+&nbsp;
+
 Our refinement splits the styling into three different manageable and easy-to-understand chunks. It’s a win.
+
+&nbsp;
 
 ### STYLE SHEET MANAGER 
 
@@ -410,7 +462,11 @@ function Profile() {
 }
 ```
 
+&nbsp;
+
 `disableVendorPrefixes` is passed as a prop to `<StyleSheetManager>`. So, the styled components wrapped by `<StyleSheetManager>` would be disabled, but not the ones in `<StyledNav>`.
+
+&nbsp;
 
 ### EASIER DEBUGGING 
 
@@ -436,7 +492,11 @@ function App() {
 }
 ```
 
+&nbsp;
+
 By default, styled components render `LoginButton` as `<button class="LoginButton-xxxx xxxx">Login</button>` in the DOM, and as `LoginButton` in React Developer Tools, which makes debugging easier. We can toggle the `displayName` boolean if we don’t want this behavior. This requires a Babel configuration.
+
+&nbsp;
 
 **Note**: In the documentation, the package `babel-plugin-styled-components` is specified, as well as a `.babelrc` configuration file. The issue with this is that, because we’re using `create-react-app`, we can’t configure a lot of things unless we eject. This is where Babel macros come in.
 
@@ -451,6 +511,8 @@ module.exports = {
 };
 ```
 
+&nbsp;
+
 With the `fileName` value inverted, the `displayName` will be prefixed with the file name for even more unique precision.
 
 We also now need to import from the `macro`:
@@ -463,9 +525,13 @@ import styled from "styled-components";
 import styled from "styled-components/macro";
 ```
 
+&nbsp;
+
 ## Conclusion
 
 Do not take advantage of the fact that you can now compose your CSS programmatically. For what it's worth, try to keep your styled components as sane as possible. Don't try to write extensive conditionals, and don't assume that everything should be stylized. Also, don't over-abstract by developing fledgling styled components for use cases that you only have a hunch are coming up.
+
+&nbsp;
 
 ### FURTHER RESOURCES 
 

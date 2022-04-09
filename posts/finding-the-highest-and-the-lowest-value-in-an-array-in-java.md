@@ -2,7 +2,7 @@
 title: "Finding The Highest And The Lowest value In An Array In Java"
 image: "/images/posts/java/java.jpeg"
 excerpt: 'To develop a method that retrieves the greatest value in an array, you must first understand how to create a method.' 
-date: '2022-27-03'
+date: '2022-03-27'
 slug: 'finding-the-highest-and-the-lowest-value-in-an-array-in-java'
 keywords: 'Finding The Highest And The Lowest value In An Array In Java'
 isFeatured: false
@@ -10,6 +10,9 @@ category: 'Java'
 ---
 
 To develop a method that retrieves the greatest value in an array, you must first understand how to create a method. If you don't know how to create a method, I recommend reading my article on Java methods.
+
+&nbsp;
+
 
 ## Below are the steps to retrieves the greatest value in an array
 
@@ -25,8 +28,10 @@ Step 1
 ```java
 public static int Highest(int[] array) {}
 ```
+&nbsp;
 
-1. Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to the argument of your method with an index of 0 e.g
+
+2. Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to the argument of your method with an index of 0 e.g
 
 ```java
 public static int Highest(int[] array) {
@@ -34,7 +39,10 @@ public static int Highest(int[] array) {
 }
 ```
 
-1. Loop through your array and compare each value to your variable you initialized earlier  e.g
+&nbsp;
+
+
+3. Loop through your array and compare each value to your variable you initialized earlier  e.g
 
 ```java
 
@@ -49,7 +57,13 @@ public static int Highest(int[] array) {
     }
 ```
 
+&nbsp;
+
+
 Almost the same thing for finding lowest , the only difference is in the for loop like so  
+
+&nbsp;
+
 
 ```java
  for (int i = 0; i < array.length; i++) {
@@ -58,6 +72,8 @@ Almost the same thing for finding lowest , the only difference is in the for loo
            }
 //you can choose  to change the varible name to low if u want 
 ```
+
+&nbsp;
 
 **Lets test our our method** 
 
@@ -83,6 +99,8 @@ public class Highset {
 
 //output:15
 ```
+
+&nbsp;
 
 test Example with lowest ;
 

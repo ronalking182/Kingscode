@@ -2,7 +2,7 @@
 title: "How To Create A Methods In Java"
 image: "/images/posts/java/java.jpeg"
 excerpt: 'With this article, I will share with you  how to create a method  you can use to improve your java program performance and architecture.' 
-date: '2022-27-03'
+date: '2022-03-27'
 slug: 'how-to-create-a-method-in-java'
 keywords: 'java method, java method example, java method definition'
 isFeatured: false
@@ -28,6 +28,7 @@ Below are steps in creating method and everything you need to know about method 
 1. A method is either **public, private, protect**. Any other Access modifier will be discussed latter in this article if needed. 
 2. A method can either  have a return type or can be void( which means it does not  return anything)
 3. A method can take in an argument( perimeter ) if needed
+4. a method is created outside the main method
 
 Below is an example of a method without a return type
 

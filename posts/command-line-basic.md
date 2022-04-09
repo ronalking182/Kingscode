@@ -2,7 +2,7 @@
 title: "Command Line Basic"
 image: '/images/posts/command-line-basic/command-line-basic.jpg'
 excerpt: 'Git is know for it tree like structure ,Where you branch off from a code base in other to make you changes and then merge them back in at another location.Git will help you see the differences between two branches and help you merge them together.' 
-date: '2022-25-03'
+date: '2022-03-25'
 slug: 'command-line-basic'
 keywords: 'command line, command line interface bash command line arguments, mac command line, command line commands,command line basic'
 isFeatured: false
@@ -12,9 +12,16 @@ category: 'Blog'
 
 The command line is a text-based computer interface. It's a program that receives commands and sends them to the computer's operating system for execution.
 
+&nbsp;
+
+
 You may navigate your computer's files and directories from the command line, just like you would with Windows Explorer or Finder on Mac OS. The command line differs in that it is entirely text-based.
 
+&nbsp;
+
 Here's a list of frequently used commands.
+
+&nbsp;
 
 ###  `pwd` Print Working Directory 
 
@@ -24,6 +31,8 @@ The shell command `pwd` displays the file path from the root directory to the c
 $ pwd
 /Users/Downloads
 ```
+
+&nbsp;
 
 ### `mkdir` Make Directory 
 
@@ -41,6 +50,9 @@ rmdir - remove a directory (only work on empty folders)
 $rmdir my-folder
 ```
 
+&nbsp;
+
+
 ### `ls` List 
 
 The shell command `ls` is used to list the contents of a directory. If no arguments are given, it will list the contents of the current working directory.
@@ -50,6 +62,9 @@ $ ls Desktop
 resume.pdf
 photo.png
 ```
+
+&nbsp;
+
 
 ### `cd` Change Directory 
 
@@ -63,6 +78,8 @@ The shell command `cd` is used to move throughout the filesystem of a computer.
 $ cd some-directory
 $ cd ..
 ```
+
+&nbsp;
 
 ### `touch` Create New File 
 
@@ -80,9 +97,13 @@ rm shoping-list.txt
 
 rm -rf - Remove recursive force / Delete a directory add all file nested in the directory (also other directories)
 
+&nbsp;
+
 **Helper Commands** 
 
 Helper commands for the command line include:
+
+&nbsp;
 
 - `clear` to clear the terminal
 - tab to autocomplete the line

@@ -20,21 +20,49 @@ const Courses = ({categories}) => {
 
 
   return <>
-  <div className={classes.container}>
+  <div className={openNav ? `${classes.responsive}` :`${classes.container}`}>
       <span className={classes.show}>
-      <ul className={classes.ul}>
-              {categories && categories.map((category, index)=> (
+      <ul className={ openNav ? `${classes.responsiveUl}` :`${classes.ul}`}>
+          {openNav ? categories && categories.map((category, index)=> (
                  (
                     <Link key={index} href={`/blog/category/${category.toLowerCase()}`}>
                         <a className={classes.course}>
-                            <li>{category}</li>
+                            <li className={openNav &&`${classes.responsiveLi}` }>{category}</li>
                         </a>
                     </Link>
                  )
-              ))}
+              )) :
+              <>
+               
+                     {/* categories && categories.map((category, index)=> (
+                        (
+                           <Link key={index} href={`/blog/category/${category.toLowerCase()}`}>
+                               <a className={classes.course}>
+                                   <li className={openNav &&`${classes.responsiveLi}` }>{category}</li>
+                               </a>
+                           </Link>
+                        ) */}
+                 
+              <li className={classes.liLink}> <Link href="/about">About</Link> </li>
+              <li  className={classes.liLink}> <Link href="/blog">Post</Link> </li>
+              <li className={classes.linkShow}>
+                 <ul className={classes.ul}>
+                 {
+                   categories && categories.map((category, index)=> (
+                    <Link key={index} href={`/blog/category/${category.toLowerCase()}`}>
+                        <a className={classes.course}>
+                                   {category}
+                        </a>
+                    </Link> 
+                   ))   
+                  }
+                 </ul>
+            </li>
+              </>
+             }
           </ul>
       </span>
-      {/* <span onClick={handleOpenNav} className={classes.ham}><Menu/></span> */}
+      <span onClick={handleOpenNav} className={openNav ? `${classes.responsiveHam}` :`${classes.ham}`}><Menu/></span>
   </div>
       {/* <span className={openNav ? `${classes.sub_nav}`: `${classes.sub_nav_close} `}>
           <Link href='/'>

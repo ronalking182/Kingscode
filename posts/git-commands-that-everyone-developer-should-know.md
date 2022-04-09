@@ -2,7 +2,7 @@
 title: "Git Commands That Everyone Developer Should Know"
 image: '/images/posts/git-commands-that-everyone-developer-should-know/git-commands-that-everyone-developer-should-know.jpg'
 excerpt: 'Git is know for it tree like structure ,Where you branch off from a code base in other to make you changes and then merge them back in at another location.Git will help you see the differences between two branches and help you merge them together.' 
-date: '2022-26-03'
+date: '2022-03-26'
 slug: 'git-commands-that-everyone-developer-should-know'
 keywords: 'git command, git basic, git'
 isFeatured: true
@@ -12,7 +12,7 @@ category: 'Git'
 
 > Git is  software for tracking changes in your code base so you can collaborate with other developer. 
 
-Before moving forward it is my assumption that you already have git installed on your device, if not [click here to check how to install git]('http://KingsCode.com/blog/how-to-install-git')  and also that  you have a basic knowledge of the command line, if not [check out the basic of command line]('http://KingsCode.com/blog/command-line-basic')
+Before moving forward it is my assumption that you already have git installed on your device, if not [click here to check how to install git]('http://kingscod.com/blog/how-to-install-git')  and also that  you have a basic knowledge of the command line, if not [check out the basic of command line]('http://kingscod.com/blog/command-line-basic')
 
 ## **Working with local repositories**
 

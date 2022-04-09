@@ -18,10 +18,27 @@
     display:flex;
     width:52vw;
     align-items: center;
-    justify-content:space-around;
+    justify-content:flex-end;
     font-size: 1.05rem;
     list-style: none;
 }
+.li{
+    display:none;
+}
+@media (min-width:768px) {
+    .li{
+        display: block;
+    } 
+    .ul{
+        display:flex;
+        width:52vw;
+        align-items: center;
+        justify-content:space-around;
+        font-size: 1.05rem;
+        list-style: none;
+    }
+}
+
 .logo{
 font-size: 1.2rem;
 }

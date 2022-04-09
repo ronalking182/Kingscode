@@ -6,11 +6,12 @@ import CategoryList from '@/components/CategoryList'
 import { POSTS_PER_PAGE } from '@/config/index'
 import { getPosts } from '@/lib/posts'
 import MainPost from '@/components/home-page/main-post'
+import Courses from '../../../components/layout/courses'
 
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
-          <CategoryList categories={categories} />
+          <Courses categories={categories}/>
         <MainPost posts={posts} currentPage={currentPage} numPages={numPages}/>
           <Pagination currentPage={currentPage} numPages={numPages} />
     </Layout>

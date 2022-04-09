@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import Image from 'next/image'
+
 import CategoryLabel from './CategoryLabel'
 
 export default function Post({ post, compact }) {
   return (
     <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
-      {!compact && (
+      {/* {!compact && (
         <Image
           src={post.frontmatter.image}
           alt=''
@@ -13,7 +13,7 @@ export default function Post({ post, compact }) {
           width={600}
           className='mb-4 rounded'
         />
-      )}
+      )} */}
       <div className='flex justify-between items-center'>
         <span className='font-light text-gray-600'>
           {post.frontmatter.date}
@@ -31,11 +31,11 @@ export default function Post({ post, compact }) {
       </div>
 
       {!compact && (
-        <div className='flex justify-between items-center mt-6'>
+        <button className='flex justify-between items-center mt-6'>
           <Link href={`/blog/${post.slug}`}>
-            <a className='text-gray-900 hover:text-blue-600'>Read More</a>
+            <a className='text-white-600 hover:text-gray-700'>Read More</a>
           </Link>
-        </div>
+        </button>
       )}
     </div>
   )

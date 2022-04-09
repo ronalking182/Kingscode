@@ -3,7 +3,7 @@ title: "How To Install Git"
 image: '/images/posts/how-to-install-git/how-to-install-git.jpg'
 excerpt: 'Git is known for its tree-like structure, which allows you to branch off from a code base to make changes and then merge them back in.
 Git will show you the differences between two branches and will assist you in merging them.' 
-date: '2022-23-03'
+date: '2022-03-23'
 slug: 'how-to-install-git'
 keywords: 'install git,install git windows,install git on mac,install git on windows,install git bash,how to install git, install git mac'
 isFeatured: false
@@ -33,7 +33,9 @@ Apparently, Apple actually maintain and ship their [their own fork of Git](htt
 The easiest way to install Git on a Mac is via the stand-alone installer:
 
 1.Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/).
+
 2.Follow the prompts to install Git.
+
 3.Open a terminal and verify the installation was successful by typing `git --version`:
 
 ```javascript

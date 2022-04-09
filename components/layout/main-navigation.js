@@ -10,8 +10,8 @@ const MainNavigation = () => {
             <a><h1 className={classes.h1}>  <Image src='/images/logo.png' alt='logo' width='35' height='35'/> KingsCode</h1></a></Link></div>
          <div>
          <ul className={classes.ul}>
-                <li> <Link href="/about">About</Link> </li>
-                <li> <Link href="/blog">Post</Link> </li>
+                <li className={classes.li}> <Link href="/about">About</Link> </li>
+                <li className={classes.li}> <Link href="/blog">Post</Link> </li>
                <li> <DarkMode/> </li>
             </ul>
          </div>

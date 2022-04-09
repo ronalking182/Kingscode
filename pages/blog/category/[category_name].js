@@ -2,12 +2,36 @@ import fs from 'fs'
 import path from 'path'
 import Head from 'next/head';
 import Layout from '@/components/Layout'
-import CategoryList from '@/components/CategoryList'
+// import CategoryList from '@/components/CategoryList'
 import matter from 'gray-matter'
 import { getPosts } from '@/lib/posts'
-import MainPost from '@/components/home-page/main-post'
+import SearchResults from '../../../components/SearchResults'
+import classes from '../../../components/home-page/main-post.module.css'
+import Post from '../../../components/Post'
+import { useState, useEffect } from 'react'
+import { FaSearch } from 'react-icons/fa'
+// import SearchResults from '../../../components/Search'
+// import MainPost from '@/components/home-page/main-post'
+import Courses from '../../../components/layout/courses'
 
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
+  const [searchTerm, setSearchTerm] = useState('')
+  const [searchResults, setSearchResults] = useState([])
+
+  useEffect(() => {
+    const getResults = async () => {
+      if (searchTerm === '') {
+        setSearchResults([])
+      } else {
+        const res = await fetch(`/api/search?q=${searchTerm}`)
+        const { results } = await res.json()
+        setSearchResults(results)
+      }
+    }
+
+    getResults()
+  }, [searchTerm])
+
   return (
     <Layout>
       <Head>
@@ -17,8 +41,47 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
           content='A list of all programming-related tutorials and posts!'
         />
       </Head>
-          <CategoryList categories={categories} />
-            <MainPost posts={posts}/>
+          {/* <CategoryList categories={categories} /> */}
+          <Courses categories={categories}/>
+          <div className={classes.main_Container}>
+      <span className={classes.post}>
+      <h1 className='text-5xl  p-5 font-bold'>Category</h1>
+      {posts.map((post, index) => (
+          <Post key={index} post={post} />
+        ))}
+ </span>
+ <span className={classes.anything}>
+ <span className={classes.tagXX}>
+          <div className='container mx-auto flex items-center justify-center  md:justify-center'>
+          <div className='relative text-gray-600 w-72 flex justify-center'>
+          <form>
+            <input
+              type='search'
+              name='search'
+              id='search'
+              className='bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-72'
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder='Search Posts...'
+            />
+
+            <FaSearch className='absolute top-0 right-0 text-black mt-3 mr-4' />
+          </form>
+        </div>
+        </div>
+          </span>
+          <span className={searchResults.length  === 0  ? `${classes.taxN}` : `${classes.tagX}`}>
+            <SearchResults results={searchResults} />
+          </span>
+          {/* <span className={classes.tag}>
+            <p className={classes.about}> 
+            <h4>About</h4>
+            I &rsquo;m a computer science student with a diverse set of software and web development skills. Web programming is a hobby of mine that I can never get enough of... <Link href='/about'><a>read more</a></Link>
+            </p>
+          </span> */}
+        </span>
+      </div>
+            {/* <MainPost posts={posts}/> */}
     </Layout>
   )
 }
