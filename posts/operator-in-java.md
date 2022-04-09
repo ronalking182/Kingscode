@@ -9,52 +9,32 @@ isFeatured: false
 category: 'Java'
 ---
 
-## All Concepts 
-
-1. [Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/introduction-to-java)
-
-2. [Operators in JAVA](https://www.kingscod.com/blog/operators-in-Java)
-3. [Condition in JAVA ](https://www.kingscod.com/blog/condition-in-java)
-4. [Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
-5. Arrays in JAVA (coming soon)
-6. [Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
-7. Introduction to OOPS ( important ),(coming soon)
-8. Access Modifier & Constructor (coming soon)
-9. Inheritance in JAVA (coming soon)
-10. Abstract Classes & Interface (coming soon)
-11. Package in JAVA (coming soon)
-12. Multithreading in JAVA (coming soon)
-13. Error & Exception (coming soon)
-14. Advance JAVA – I (coming soon)
-15. Advance JAVA – II(coming soon)
-
-&nbsp;
 
 Depending on the situation, a variety of Java operators can be used. They're grouped according to the qualities they include. Listed here are a few samples of the numerous kinds:
 
-1. Arithmetic Operators
-2. Unary Operators
-3. Assignment Operator
-4. Relational Operators
-5. Logical Operators
-6. Ternary Operator
-7. Bitwise Operators
-8. Shift Operators
-9. instance of operator
+1.Arithmetic Operators
+2.Unary Operators
+3.Assignment Operator
+4.Relational Operators
+5.Logical Operators
+6.Ternary Operator
+7.Bitwise Operators
+8.Shift Operators
+9.instance of operator
 
 Let’s take a look at them in detail.
 
 &nbsp;
 
-1. Primitive data types can be easily manipulated by applying arithmetic operators on the underlying data.
+1.Primitive data types can be easily manipulated by applying arithmetic operators on the underlying data.
 
 &nbsp;
 
-- ***:** Multiplication
-- **/ :** Division
-- **% :** Modulo
-- **+ :** Addition
-- **– :** Subtraction
+-***:** Multiplication
+-**/ :** Division
+-**% :** Modulo
+-**+ :** Addition
+-**– :** Subtraction
 
 &nbsp;
 
@@ -73,7 +53,7 @@ Check out my article about [Presedence & Associativity](https://kingscod.com/blo
 
 &nbsp;
 
-**2. Unary Operators:** They are used to increment, decrement or negate a value.
+**2.Unary Operators:** They are used to increment, decrement or negate a value.
 
 - **– :** **Unary minus**, used for negating the values.
 - **+ :** **Unary plus** indicates the positive value (numbers are positive without this, however). It performs an automatic conversion to int when the type of its operand is the byte, char, or short.
@@ -92,9 +72,9 @@ System.out.println(a)//output->5
 
 ```
 
-- **— : Decrement operator**, used for decrementing the value by 1. There are two varieties of decrement operators.
-    - **Post-decrement:** Value is first used for computing the result and then decremented.
-    - **Pre-Decrement:** Value is decremented first, and then the result is computed.
+-**— : Decrement operator**, used for decrementing the value by 1. There are two varieties of decrement operators.
+    -**Post-decrement:** Value is first used for computing the result and then decremented.
+    -**Pre-Decrement:** Value is decremented first, and then the result is computed.
 
 ```
 --a **decrement** and then uses the variable.
@@ -111,7 +91,7 @@ System.out.println(a)//output->3
 
 &nbsp;
 
-3. '=' as an assignment operator The assignment operator is used to give any variable a value. It has right-to-left associativity, which means that the value given on the right-hand side of the operator is assigned to the variable on the left. As a result, the right-hand side value must be declared before use or be a constant.
+3.'=' as an assignment operator The assignment operator is used to give any variable a value. It has right-to-left associativity, which means that the value given on the right-hand side of the operator is assigned to the variable on the left. As a result, the right-hand side value must be declared before use or be a constant.
 
 The general format of the assignment operator is:
 
@@ -134,4 +114,40 @@ variable= value;
 |&&|Logical and|	Returns true if both statements are true|	x < 5 &&  x < 10
 | &verbar;&verbar;  |Logical or|	Returns true if one of the statements is true|	x < 5 || x < 4
 |!|Logical not|	Reverse the result, returns false if the result is true|	!(x < 5 && x < 10)
-Next -> [Condition in JAVA ](https://www.kingscod.com/blog/condition-in-java)
+
+&nbsp;
+
+ Next →  [Condition in JAVA ](https://www.kingscod.com/blog/conditional-statement-in-Java)
+
+&nbsp;
+
+## All Concepts 
+
+1.[Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/variable-and-data-type-in-java)
+
+2.[Operators in JAVA](https://www.kingscod.com/blog/operator-in-java)
+
+3.[Condition in JAVA ](https://www.kingscod.com/blog/conditional-statement-in-Java)
+
+4.[Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
+
+5.Arrays in JAVA (coming soon)
+6.[Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
+
+7.Introduction to OOPS ( important ),(coming soon)
+
+8.Access Modifier & Constructor (coming soon)
+
+9.Inheritance in JAVA (coming soon)
+
+10.Abstract Classes & Interface (coming soon)
+
+11.Package in JAVA (coming soon)
+
+12.Multithreading in JAVA (coming soon)
+
+13.Error & Exception (coming soon)
+
+14.Advance JAVA – I (coming soon)
+
+15.Advance JAVA – II(coming soon)

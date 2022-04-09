@@ -22,11 +22,11 @@ In this post, you'll discover the fundamentals of styled components and how to u
 
 Styled components have the following benefits in addition to assisting you with scoping styles:
 
-1. Automatic prefixing of vendors:Standard CSS properties can be used, and styled components will add vendor prefixes as necessary. 
+1.Automatic prefixing of vendors:Standard CSS properties can be used, and styled components will add vendor prefixes as necessary. 
 
-2. Class names that are unique:Styled components are self-contained, and you won't have to bother about their names because the library will take care of that.
+2.Class names that are unique:Styled components are self-contained, and you won't have to bother about their names because the library will take care of that.
 
-3. Styles that are no longer relevant are removed:Even if the styles are declared in your code, styled components delete them.
+3.Styles that are no longer relevant are removed:Even if the styles are declared in your code, styled components delete them.
 
 &nbsp;
 
@@ -535,7 +535,11 @@ Do not take advantage of the fact that you can now compose your CSS programmatic
 
 ### FURTHER RESOURCES 
 
-1. [Documentation](https://styled-components.com/docs), Styled Components
-2. [Building a Reusable Component System with React.js and styled-components](https://levelup.gitconnected.com/building-a-reusable-component-system-with-react-js-and-styled-components-4e9f1018a31c), Lukas Gisder-Dubé
-3. [Usage with Next.js](https://styled-components.com/docs/advanced#nextjs)
-4. [Usage with Gatsby](https://styled-components.com/docs/advanced#gatsby)
+1.[Documentation](https://styled-components.com/docs), Styled Components
+
+2.[Building a Reusable Component System with React.js and styled-components](https://levelup.gitconnected.com/building-a-reusable-component-system-with-react-js-and-styled-components-4e9f1018a31c)
+.
+
+3.[Usage with Next.js](https://styled-components.com/docs/advanced#nextjs)
+
+4.[Usage with Gatsby](https://styled-components.com/docs/advanced#gatsby)

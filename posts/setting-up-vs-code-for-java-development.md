@@ -20,8 +20,8 @@ don’t already have it.
 
 Instead of installing Vscode from scratch, you can use the Coding Pack for Java, which includes VS Code, JDK, and other necessary Java extensions.
 
-- for windows:[windows](https://aka.ms/vscode-java-installer-win)
-- for mac:[mac](https://aka.ms/vscode-java-installer-mac)
+-for windows:[windows](https://aka.ms/vscode-java-installer-win)
+-for mac:[mac](https://aka.ms/vscode-java-installer-mac)
 
 &nbsp;
 
@@ -39,12 +39,17 @@ If you didn’t install the coding pack for java and you already have vsCode ins
 &nbsp;
 
 
-- [Language Support for Java™ by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
-- [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
-- [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
-- [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
-- [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+-[Language Support for Java™ by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+
+-[Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+
+-[Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+
+-[Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+
+-[Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
+
+-[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 &nbsp;
 
@@ -54,13 +59,19 @@ To use Java within Visual Studio Code, you need to install a  (JDK) on your loca
 
 &nbsp;
 
-- [Amazon Corretto](https://aws.amazon.com/corretto)
-- [Azul Zulu](https://www.azul.com/downloads/?package=jdk)
-- [Eclipse Adoptium's Temurin](https://adoptium.net/)
-- [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk)
-- [Oracle Java SE](https://www.oracle.com/java/technologies/javase-downloads.html)
-- [Red Hat build of OpenJDK](https://developers.redhat.com/products/openjdk/download)
-- [SapMachine](https://sapmachine.io/)
+-[Amazon Corretto](https://aws.amazon.com/corretto)
+
+-[Azul Zulu](https://www.azul.com/downloads/?package=jdk)
+
+-[Eclipse Adoptium's Temurin](https://adoptium.net/)
+
+-[Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk)
+
+-[Oracle Java SE](https://www.oracle.com/java/technologies/javase-downloads.html)
+
+-[Red Hat build of OpenJDK](https://developers.redhat.com/products/openjdk/download)
+
+-[SapMachine](https://sapmachine.io/)
 
 &nbsp;
 
@@ -68,8 +79,9 @@ To use Java within Visual Studio Code, you need to install a  (JDK) on your loca
 
 Once you have  vsCode installed, follow the following steps
 
-1.  open  up  vscode and click **cmd+N** on mac or **ctrl + N** on window,
-2.  click **cmd+S**  on mac or  **ctrl + S on** window, When prompted, save your file with a name you want and the extension ".java" appended to the end of the filename, then set the location you want your file to be and click Enter.
+1.open  up  vscode and click **cmd+N** on mac or **ctrl + N** on window,
+
+2.click **cmd+S**  on mac or  **ctrl + S on** window, When prompted, save your file with a name you want and the extension ".java" appended to the end of the filename, then set the location you want your file to be and click Enter.
 
 And there you have it 💥 🎉, Your java file. 
 

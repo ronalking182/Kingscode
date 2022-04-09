@@ -35,9 +35,11 @@ Open up your command line and run `create-react-app dark-mode-example` but if yo
 
 Dark/light settings will be determined in the following order of importance when the application loads:
 
-1. User’s previous toggle setting
-2. Use’s browser preference
-3. Light mode
+1.User’s previous toggle setting
+
+2.Use’s browser preference
+
+3.Light mode
 
 &nbsp;
 
@@ -72,9 +74,9 @@ Explanation:
 
 So what was all those code you copied used for? let me explane:
 
-1. the `:roots`selector represent the DOM tree, anything you put here will be available any where in your application. It is also where you create your CSS variable that holds the color for your light mood. It is always meant to come first before any other selector
+1.the `:roots`selector represent the DOM tree, anything you put here will be available any where in your application. It is also where you create your CSS variable that holds the color for your light mood. It is always meant to come first before any other selector.
 
-2. `[data-theme="dark"]`this is used to set the colors for our dark mood. It is called an attribute selector, we will use it to target any element with a`[data-theme="dark"]`
+2.`[data-theme="dark"]`this is used to set the colors for our dark mood. It is called an attribute selector, we will use it to target any element with a`[data-theme="dark"]`
 
 &nbsp;
 
@@ -234,17 +236,18 @@ export default DarkMode;
 
 Explanation:
 
-1. We create functions called `setDark`and `setLight` which do exactly what the names describe.These should be as straightforward as feasible.
-2. Local Storage is for persistent, so that even if we refresh a  page or leave it and come back again it will still remain the same where you left it .
+1.We create functions called `setDark`and `setLight` which do exactly what the names describe.These should be as straightforward as feasible.
 
-3. we use `document.documentElement.setAtribute` to change the value on the html DOM element When that attribute is added then the `[data-theme="dark"]` selector from our CSS becomes active and the dark colors variables are set (and vice versa) .
+2.Local Storage is for persistent, so that even if we refresh a  page or leave it and come back again it will still remain the same where you left it .
 
-4.  The `storedTheme`  section  is where the "initial" state is established when the page is loaded before the actual toggle switch has been used. `storedTheme` gets the value from `localStorage` if it exists. `prefersDark` checks a media query for the user's browser settings for [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme). Lastly `defaultDark` is meant to check both of those and decide whether to default to dark mode based on the 3 rules of priority we established at the beginning of this tutorial. If it evaluates to true, we set the app to dark mode before the component even renders. *(Note the reason we can do this is we are targeting the `<html>` attribute which will already exist.).*
+3.we use `document.documentElement.setAtribute` to change the value on the html DOM element When that attribute is added then the `[data-theme="dark"]` selector from our CSS becomes active and the dark colors variables are set (and vice versa) .
 
-5.  if the box is `checked`we enable dark mode, otherwise light mode.This is the [event handler](https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers)
+4.The `storedTheme`  section  is where the "initial" state is established when the page is loaded before the actual toggle switch has been used. `storedTheme` gets the value from `localStorage` if it exists. `prefersDark` checks a media query for the user's browser settings for [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme). Lastly `defaultDark` is meant to check both of those and decide whether to default to dark mode based on the 3 rules of priority we established at the beginning of this tutorial. If it evaluates to true, we set the app to dark mode before the component even renders. *(Note the reason we can do this is we are targeting the `<html>` attribute which will already exist.).*
+
+5.if the box is `checked`we enable dark mode, otherwise light mode.This is the [event handler](https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers)
  function we have written to capture the *change* event that occurs when a user clicks the checkbox.We place the event handler onto the `onChange` attribute so it fires every time the checkbox changes.
 
-6. To determine if the checkbox is enabled by default, we  use the `defaultDark`
+6.To determine if the checkbox is enabled by default, we  use the `defaultDark`
  boolean value.
 
 &nbsp;

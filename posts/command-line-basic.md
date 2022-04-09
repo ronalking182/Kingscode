@@ -105,6 +105,8 @@ Helper commands for the command line include:
 
 &nbsp;
 
-- `clear` to clear the terminal
-- tab to autocomplete the line
-- ↑ and ↓  to cycle through previous commands
+-`clear` to clear the terminal
+
+-tab to autocomplete the line
+
+-↑ and ↓  to cycle through previous commands

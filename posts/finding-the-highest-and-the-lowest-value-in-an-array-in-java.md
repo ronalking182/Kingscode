@@ -18,7 +18,7 @@ To develop a method that retrieves the greatest value in an array, you must firs
 
 Step 1
 
-1. create a method name with an argument of an array e.g
+1.create a method name with an argument of an array e.g
 
 <aside>
 💡 your method should have a return type int or double (  your choice )
@@ -31,7 +31,7 @@ public static int Highest(int[] array) {}
 &nbsp;
 
 
-2. Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to the argument of your method with an index of 0 e.g
+2.Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to the argument of your method with an index of 0 e.g
 
 ```java
 public static int Highest(int[] array) {
@@ -42,7 +42,7 @@ public static int Highest(int[] array) {
 &nbsp;
 
 
-3. Loop through your array and compare each value to your variable you initialized earlier  e.g
+3.Loop through your array and compare each value to your variable you initialized earlier  e.g
 
 ```java
 

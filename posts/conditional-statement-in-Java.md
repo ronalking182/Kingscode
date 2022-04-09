@@ -9,25 +9,6 @@ isFeatured: false
 category: 'Java'
 ---
 
-## All Concepts 
-
-1. [Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/introduction-to-java)
-
-2. [Operators in JAVA](https://www.kingscod.com/blog/operators-in-Java)
-3. [Condition in JAVA ](https://www.kingscod.com/blog/condition-in-java)
-4. [Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
-5. Arrays in JAVA (coming soon)
-6. [Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
-7. Introduction to OOPS ( important ),(coming soon)
-8. Access Modifier & Constructor (coming soon)
-9. Inheritance in JAVA (coming soon)
-10. Abstract Classes & Interface (coming soon)
-11. Package in JAVA (coming soon)
-12. Multithreading in JAVA (coming soon)
-13. Error & Exception (coming soon)
-14. Advance JAVA – I (coming soon)
-15. Advance JAVA – II(coming soon)
-
 &nbsp;
 
 Generally speaking, conditional statements in java programming are employed to carry out tasks that can only be carried out under specific circumstances. Java comparison is an important aspect of this JAVA series, therefore let's speak about it first before discussing conditional statements, which we'll cover in a short while.
@@ -76,17 +57,17 @@ A Java expression that returns a Boolean value of true or false is known as a Bo
 
 To determine whether an expression (or a variable) is true or false, you can use a comparison operator such as the 
 
-1. greater than (>) operator
+1.greater than (>) operator
 
-2. less than (<) operator
+2.less than (<) operator
 
-3. equal to (==) operator
+3.equal to (==) operator
 
-4. not quals to (≠) operator
+4.not equals to (≠) operator
 
-5. greater than or equals to (≥)
+5.greater than or equals to (≥)
 
-6. less than or quals to (≤)
+6.less than or equals to (≤)
 
 &nbsp;
 
@@ -115,9 +96,9 @@ System.out.println(x >= 10); // returns true, because x equals to 10
 
 **Logical operator** 
 
-1. “AND”(&&)
-2. “OR”(||)
-3. “NOT”(!)
+1.“AND”(&&)
+2.“OR”(||)
+3.“NOT”(!)
 
 ```java
 boolean result = x < 5 &&  x < 10;
@@ -134,12 +115,12 @@ System.out.println(resultThree);//Reverse the result, returns false if the resul
 
 Java provides various  control flow statements.
 
-1. Decision Making statements
-    - if statements or if else statements
-    - switch statement
-2. Jump statements
-    - break statement
-    - continue statement
+1.Decision Making statements
+    -if statements or if else statements
+    -switch statement
+2.Jump statements
+    -break statement
+    -continue statement
 
 
 &nbsp;
@@ -148,17 +129,17 @@ Java provides various  control flow statements.
 
 Decision-making statements, as the name suggests, determine which statements are executed and when. Decision-making statements parse the Boolean expression and control the program flow based on the outcome of the condition.Java has the following conditional statements:
 
-- Use `if` to specify a block of code to be executed, if a specified condition is true
+-Use `if` to specify a block of code to be executed, if a specified condition is true
 
-- Use `else` to specify a block of code to be executed, if the same condition is false
+-Use `else` to specify a block of code to be executed, if the same condition is false
 
-- Use `else if` to specify a new condition to test, if the first condition is false
+-Use `else if` to specify a new condition to test, if the first condition is false
 
-- Use `switch` to specify many alternative blocks of code to be executed
+-Use `switch` to specify many alternative blocks of code to be executed
 
 &nbsp;
 
-**1. If Statement:**Use the `if`
+**1.If Statement:** Use the `if`
  statement to specify a block of Java code to be executed if a condition is `true`.
 
 ```java
@@ -300,13 +281,13 @@ switch (expression)
 ```
 &nbsp;
 
- • The break statement is used inside the switch to terminate a statement sequence.
+ -The break statement is used inside the switch to terminate a statement sequence.
 
-- The expression can be of type byte, short, int char, or an enumeration. Beginning with JDK7, *expression* can also be of type String.
+-The expression can be of type byte, short, int char, or an enumeration. Beginning with JDK7, *expression* can also be of type String.
 
-- Duplicate case values are not allowed.
+-Duplicate case values are not allowed.
 
-- The break statement is optional. If omitted, execution will continue on into the next case alternatively if you don’t want to use the break statement you can return your statement 
+-The break statement is optional. If omitted, execution will continue on into the next case alternatively if you don’t want to use the break statement you can return your statement 
 
 &nbsp;
 
@@ -336,15 +317,52 @@ The `default` keyword specifies some code to run if there is no case match
 
  Java supports three jump statements: **break, continue** and **return**. These three statements transfer control to another part of the program.
 
-- **Break:** In Java, a break is majorly used for:
-    - Terminate a sequence in a switch statement (discussed above).
+-**Break:** In Java, a break is majorly used for:
+    -Terminate a sequence in a switch statement (discussed above).
 
-    - To exit a loop.
+    -To exit a loop.
 
-    - Used as a “civilized” form of goto.
+    -Used as a “civilized” form of goto.
 
     &nbsp;
-- **Continue:** Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running the loop but stop processing the remainder of the code in its body for this particular iteration. This is, in effect, a goto just past the body of the loop, to the loop’s end. The continue statement performs such an action.
+-**Continue:** Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running the loop but stop processing the remainder of the code in its body for this particular iteration. This is, in effect, a goto just past the body of the loop, to the loop’s end. The continue statement performs such an action.
 
 &nbsp;
-Next ->[Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
+
+Next → [Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java)
+
+&nbsp;
+
+## All Concepts 
+
+1.[Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/variable-and-data-type-in-java)
+
+2.[Operators in JAVA](https://www.kingscod.com/blog/operator-in-java)
+
+3.[Condition in JAVA ](https://www.kingscod.com/blog/conditional-statement-in-Java)
+
+4.[Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
+
+5.Arrays in JAVA (coming soon)
+6.[Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
+
+7.Introduction to OOPS ( important ),(coming soon)
+
+8.Access Modifier & Constructor (coming soon)
+
+9.Inheritance in JAVA (coming soon)
+
+10.Abstract Classes & Interface (coming soon)
+
+11.Package in JAVA (coming soon)
+
+12.Multithreading in JAVA (coming soon)
+
+13.Error & Exception (coming soon)
+
+14.Advance JAVA – I (coming soon)
+
+15.Advance JAVA – II(coming soon)
+
+
+

@@ -18,7 +18,7 @@ To create a method that sum’s up an array,  first of all you have to know how 
 
 Steps
 
-1. create a method name with an argument of an array e.g
+1.create a method name with an argument of an array e.g
 
 <aside>
 💡 your method should have a return type int or double (  your choice )
@@ -32,7 +32,7 @@ public static int sumMyArray(int[] array){}
 &nbsp;
 
 
-1. Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to 0 e.g
+2.Inside your method  initialize variable depending on your array type or method return type ( it advisable to use your method return type), make it equals to 0 e.g
 
 ```java
 public static int sumMyArray(int[] array){
@@ -42,7 +42,7 @@ public static int sumMyArray(int[] array){
 
 &nbsp;
 
-2. Loop through your array and  add each value in ur array to sum e.g
+3.Loop through your array and  add each value in ur array to sum e.g
 
 ```java
 

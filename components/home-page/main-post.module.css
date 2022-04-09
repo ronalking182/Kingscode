@@ -74,9 +74,26 @@
     justify-content:center;
     margin-bottom: 0.9rem;
 }
+.btnClear{
+    display:flex;
+    /* display:block !important;
+    position:relative !important;
+    bottom:50%;
+    left:90%;
+    z-index: 99; */
+    /* top:0;
+    right:0; */
+}
+.btnClearX{
+    display:block !important;
+    border-radius: 17px;
+}
 
 
 @media (min-width:1024px) {
+    .btnClearX{
+        display:none !important;
+    }
     .main_Container{
     overflow-y: hidden !important;
     display:flex;

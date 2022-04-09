@@ -67,7 +67,7 @@ Example
 
 &nbsp;
 
-1. String Formating:
+1.String Formating:
 
 we use the %s or %S when it comes to formatting strings using printf in Java,
 
@@ -85,7 +85,7 @@ hello world!
 
 &nbsp;
 
-2. formating Integer:
+2.formating Integer:
 
 With the use %d specifier you can format any type of integer available in java e.g byte, short, int, long
 
@@ -116,7 +116,7 @@ output:
 
 &nbsp;
 
-3. Formatting floating numbers and doubles:
+3.Formatting floating numbers and doubles:
 
 To format a float number, you have to use the %*f*
  specifier
@@ -145,7 +145,7 @@ Now the minimum width of our floating number will be 3, and the length of the
 
 &nbsp;
 
-4. Formatting a Boolean value
+4.Formatting a Boolean value
 
 To format Boolean values, we use the *%b*
  format specifier

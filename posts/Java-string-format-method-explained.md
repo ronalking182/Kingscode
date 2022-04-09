@@ -13,9 +13,9 @@ The  format method is similar to the printf method. You can concatenate a string
 
 &nbsp;
 
-1. concatenate string using the format method
+1.concatenate string using the format method
 
-2. format a value passed and concatenate it at the same time 
+2.format a value passed and concatenate it at the same time 
 
 &nbsp;
 

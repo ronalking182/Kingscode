@@ -84,3 +84,39 @@ return "hello World";
 💡 Method can either be static ( like the examples used in this article) or not
 
 </aside>
+
+&nbsp;
+&nbsp;
+
+## All Concepts 
+
+1.[Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/variable-and-data-type-in-java)
+
+2.[Operators in JAVA](https://www.kingscod.com/blog/operator-in-java)
+
+3.[Condition in JAVA ](https://www.kingscod.com/blog/conditional-statement-in-Java)
+
+4.[Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
+
+5.Arrays in JAVA (coming soon)
+6.[Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
+
+7.Introduction to OOPS ( important ),(coming soon)
+
+8.Access Modifier & Constructor (coming soon)
+
+9.Inheritance in JAVA (coming soon)
+
+10.Abstract Classes & Interface (coming soon)
+
+11.Package in JAVA (coming soon)
+
+12.Multithreading in JAVA (coming soon)
+
+13.Error & Exception (coming soon)
+
+14.Advance JAVA – I (coming soon)
+
+15.Advance JAVA – II(coming soon)
+
+

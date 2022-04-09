@@ -7,6 +7,7 @@ export default function CategoryLabel({ children }) {
     Git: 'green',
     Java: 'purple',
     Blog: 'red',
+    React: 'orange',
   }
 
   return (

@@ -12,6 +12,7 @@ export default function AboutMe({categories}) {
     Git: 'green',
     Java: 'purple',
     Blog: 'red',
+    React: 'orange',
   }
 
   return (

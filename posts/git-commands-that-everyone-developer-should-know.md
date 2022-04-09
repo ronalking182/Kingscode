@@ -10,13 +10,14 @@ category: 'Git'
 ---
 ###    What is Git !!, and do you need it as a programmer?.
 
-> Git is  software for tracking changes in your code base so you can collaborate with other developer. 
+<aside>Git is  software for tracking changes in your code base so you can collaborate with other developer. 
+</aside>
 
 Before moving forward it is my assumption that you already have git installed on your device, if not [click here to check how to install git]('http://kingscod.com/blog/how-to-install-git')  and also that  you have a basic knowledge of the command line, if not [check out the basic of command line]('http://kingscod.com/blog/command-line-basic')
 
 ## **Working with local repositories**
 
-### 1. git init
+### 1.git init
 
 This command turns a directory into an empty Git repository.This is the first stage in the repository creation process. Adding and committing files/directories is possible after running git init.
 
@@ -41,7 +42,7 @@ $ git init
 Initialized empty Git repository in /Documents/website/.git/
 ```
 
-### 2. **git add**
+### 2.**git add**
 
 Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all un-staged files.
 
@@ -64,7 +65,7 @@ $ git add index.html
 $ git add css
 ```
 
-### 3. **git commit**
+### 3.**git commit**
 
 Changes to the files should be saved to a local repository. Each commit has its own ID for easy identification.
 
@@ -86,7 +87,7 @@ $ git commit -m "My first commit message"
 create mode 100644 homepage/index.html
 ```
 
-### 4. **git status**
+### 4.**git status**
 
 This command returns the current state of the repository.
 
@@ -122,7 +123,7 @@ On branch SecretTesting
 nothing to commit, working directory clean
 ```
 
-### 5. **git branch**
+### 5.**git branch**
 
 To determine what branch the local repository is on, add a new branch, or delete a branch.
 
@@ -158,7 +159,7 @@ $ git branch -d new_feature
 Deleted branch new_feature (was 0254c3d).
 ```
 
-### 6. git checkout
+### 6.git checkout
 
 To start working in a different branch, use *git checkout* to switch branches. Unlike git branch, this  command, added with “-b” switches to the current branch specified immediately after creating the specified branch
 
@@ -184,7 +185,7 @@ $ git checkout -b staging
 Switched to a new branch 'staging'
 ```
 
-### 7. **git merge**
+### 7.**git merge**
 
 Integrate branches together. *git merge*
  combines the changes from one branch to another branch. For example, merge the changes       made in a staging branch into the stable branch.
@@ -208,9 +209,13 @@ Fast-forward
  create mode 100644 homepage/index.html
 ```
 
+&nbsp;
+
 ## **Working with remote repositories**
 
 When working with remote repositories, all the other command specified in the local repository is followed plus some other additional command 
+
+&nbsp;
 
 ### **git remote**
 
@@ -237,6 +242,7 @@ $ git remote -v
 origin git@account_name.git.beanstalkapp.com:/acccount_name/repository_name.git (fetch)
 origin git@account_name.git.beanstalkapp.com:/acccount_name/repository_name.git (push)
 ```
+&nbsp;
 
 ### **git clone**
 
@@ -331,11 +337,16 @@ To git@account_name.git.beanstalkapp.com:/acccount_name/repository_name.git
 
 Are you interested in learning more about Git and its various commands? There are a plethora of publications and websites dedicated to Git; here are a few of our favorites:
 
-* [he official Git site](https://git-scm.com/)
-* [Git reference](http://gitref.org/)
-* [Git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy)
-* [Pro Git (Book)](https://git-scm.com/book/en/v2)
-* [Writing meaningful commit messages](http://blog.beanstalkapp.com/post/134929320564/writing-meaningful-commit-messages)
-* [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+1.[he official Git site](https://git-scm.com/)
+
+2.[Git reference](http://gitref.org/)
+
+3.[Git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy)
+
+4.[Pro Git (Book)](https://git-scm.com/book/en/v2)
+
+5.[Writing meaningful commit messages](http://blog.beanstalkapp.com/post/134929320564/writing-meaningful-commit-messages)
+
+6.[Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 
 

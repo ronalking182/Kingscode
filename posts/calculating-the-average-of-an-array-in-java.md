@@ -26,7 +26,7 @@ You must first learn how to create a method before you can develop a method that
 
 Step 1
 
-1. create a method name with an argument of an array e.g
+1.create a method name with an argument of an array e.g
 
 &nbsp;
 
@@ -44,7 +44,7 @@ public static double AverageNumber(double[] array){}
 &nbsp;
 
 
-2. Inside your method  initialize  2 variable depending on your array type or method return type ( it advisable to use your method return type), make the both equals to 0  
+2.Inside your method  initialize  2 variable depending on your array type or method return type ( it advisable to use your method return type), make the both equals to 0  
 
 ```java
 public static double AverageNumber(double[] array){
@@ -56,7 +56,7 @@ public static double AverageNumber(double[] array){
 &nbsp;
 
 
-3. Loop through your array and  add each value in ur array to sum variable, and then divide the sum by the length of the array and attach it to the second variable e.g
+3.Loop through your array and  add each value in ur array to sum variable, and then divide the sum by the length of the array and attach it to the second variable e.g
 
 ```java
 

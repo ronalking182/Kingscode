@@ -9,36 +9,18 @@ isFeatured: false
 category: 'Java'
 ---
 
-## All Concepts 
 
-1. [Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/introduction-to-java)
-
-2. [Operators in JAVA](https://www.kingscod.com/blog/operators-in-Java)
-3. [Condition in JAVA ](https://www.kingscod.com/blog/condition-in-java)
-4. [Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
-5. Arrays in JAVA (coming soon)
-6. [Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
-7. Introduction to OOPS ( important ),(coming soon)
-8. Access Modifier & Constructor (coming soon)
-9. Inheritance in JAVA (coming soon)
-10. Abstract Classes & Interface (coming soon)
-11. Package in JAVA (coming soon)
-12. Multithreading in JAVA (coming soon)
-13. Error & Exception (coming soon)
-14. Advance JAVA – I (coming soon)
-15. Advance JAVA – II(coming soon)
-
-&nbsp;
 
 It is common in programming to use loops to keep going back and forth over something or a certain task provided a condition is given and the condition evaluate to true. In Java, we have three types of loops that all work the same way. However, there are some differences in syntax and how long it takes to check for conditions.
 
-1. while loop 
+1.while loop 
 
-2. do-while loop
+2.do-while loop
 
-3. for loop
+3.for loop
 
 &nbsp;
+
 # Java While Loop
 
 The `while` loop, loops through a block of code as long as a specified condition is `true` .
@@ -118,6 +100,7 @@ output:
 4
 ```
 &nbsp;
+
 <aside>
 💡 **Note:**
  Do not forget to increase the variable used in the condition, otherwise the loop will never end!
@@ -272,3 +255,40 @@ System.out.println( i );
 
 4. Write a JAVA program to print multiplication table of 10 in reverse order. 
 5. Write a program to calculate the sum of the number occurring in the multiplication table of 8
+
+&nbsp;
+
+Next → [Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
+
+&nbsp;
+
+## All Concepts 
+
+1.[Variable and Data Types and Strings in JAVA ](https://www.kingscod.com/blog/variable-and-data-type-in-java)
+
+2.[Operators in JAVA](https://www.kingscod.com/blog/operator-in-java)
+
+3.[Condition in JAVA ](https://www.kingscod.com/blog/conditional-statement-in-Java)
+
+4.[Loop Control in JAVA](https://www.kingscod.com/blog/loops-in-Java) 
+
+5.Arrays in JAVA (coming soon)
+6.[Methods in JAVA](https://www.kingscod.com/blog/how-to-create-a-method-in-java)
+
+7.Introduction to OOPS ( important ),(coming soon)
+
+8.Access Modifier & Constructor (coming soon)
+
+9.Inheritance in JAVA (coming soon)
+
+10.Abstract Classes & Interface (coming soon)
+
+11.Package in JAVA (coming soon)
+
+12.Multithreading in JAVA (coming soon)
+
+13.Error & Exception (coming soon)
+
+14.Advance JAVA – I (coming soon)
+
+15.Advance JAVA – II(coming soon)

@@ -20,9 +20,9 @@ To create a java project, follow the following steps
 &nbsp; 
 &nbsp;
 
-1. open Vscode and click  **shft +cmd + E**  on mac or **shft + ctrl + E on windows** to open vscode explorer .
+1.open Vscode and click  **shft +cmd + E**  on mac or **shft + ctrl + E on windows** to open vscode explorer .
 
-2. Click on the create Java project at the bottom left side of your vscode window 
+2.Click on the create Java project at the bottom left side of your vscode window 
 &nbsp;   
 &nbsp; 
 &nbsp; 
@@ -36,7 +36,7 @@ To create a java project, follow the following steps
 &nbsp; 
 &nbsp;
 
-3. A pop-up window will appear asking you to "select a project type," click "no build tools.”
+3.A pop-up window will appear asking you to "select a project type," click "no build tools.”
 &nbsp;   
 &nbsp; 
 &nbsp; 
@@ -51,13 +51,13 @@ To create a java project, follow the following steps
 &nbsp; 
 &nbsp;
 
-4. Provided you followed  step 1 to 3 you will be directed to chose a location  where you will like your java project to be, select  any location of your choice
+4.Provided you followed  step 1 to 3 you will be directed to chose a location  where you will like your java project to be, select  any location of your choice
 &nbsp;   
 &nbsp; 
 &nbsp; 
 &nbsp;
 
-5. Finally you will be asked to give your project a name
+5.Finally you will be asked to give your project a name
 &nbsp;   
 &nbsp; 
 &nbsp; 
@@ -86,4 +86,4 @@ To create a java project, follow the following steps
 And that is it 💥 🎉💥, You have just succeed in creating a java project. 
 
 
- Are you struggling with JAVA ? or you have no idea where to start learning JAVA?, check out my Java series where i talk more about java in-debt[link](https://www.kingscod.com/blog/introduction-to-java)
+ Are you struggling with JAVA ? or you have no idea where to start learning JAVA?, check out my Java series where i talk more about java in-debt [link](https://www.kingscod.com/blog/introduction-to-java)
