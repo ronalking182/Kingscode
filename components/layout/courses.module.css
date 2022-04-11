@@ -22,7 +22,7 @@
   z-index: 100;
   background-color: var(--color-grey-400);
   width:100vw;
-  height: 30vh;
+  height: 40vh;
   padding:0 1rem;
   display:flex;
   flex-direction:row;
