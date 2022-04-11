@@ -6,6 +6,7 @@ import Link from 'next/link'
 
 
 
+
 export default function AboutMe({categories}) {
   const colorKey = {
     JavaScript: 'yellow',
@@ -23,8 +24,7 @@ export default function AboutMe({categories}) {
   <div className={classes.div_container}>
       <div className={classes.main_content}>
       <p>
-       I &rsquo;m a computer science student with a diverse set of software and web development skills. Web programming is a hobby of mine that I can never get enough of.
-I despised programming the first time I attempted it. I felt as if I &rsquo;d never be able to understand what it needed to be a true coder. I was starting to feel like a phony. Because of how and where I learned to program, there is always another vocabulary to learn, another framework to master, and another issue to find and fix. Fortunately, I was able to figure out two things:
+       I &rsquo;m a computer science student with a diverse set of software and web development skills. Web programming is a hobby of mine that I can never get enough of. When I was learning to program, I despised programming the first time I attempted it. I felt as if I&rsquo;d never be able to understand what is needed to be a true programmer. I was starting to feel like a phony. Because of how and where I learned to program, there is always another vocabulary to learn, another framework to master, and another issue to find and fix. Fortunately, I was able to figure out two things:
 </p>
 <ul>
     <li> It &rsquo;s enjoyable for me to write about a subject I &rsquo; m interested in.</li>
