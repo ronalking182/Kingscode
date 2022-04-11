@@ -17,13 +17,13 @@
 
 .responsive {
   position:fixed;
-  top:50px; 
+  /* top:50px;  */
   left: 0; 
   z-index: 100;
   background-color: var(--color-grey-400);
   width:100vw;
   height: 40vh;
-  padding:0 1rem;
+  /* padding:0 1rem; */
   display:flex;
   flex-direction:row;
   align-items: center;
