@@ -1,5 +1,8 @@
 
 .whole_post{
+    position: relative;
+    top: 2rem;
+    margin-bottom: 2rem;
     flex-direction:column;
     padding: .7rem;
  
@@ -47,6 +50,7 @@
 
 .tag{
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     border-radius: 10px;
     width: 250px;

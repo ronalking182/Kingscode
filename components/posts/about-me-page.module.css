@@ -3,6 +3,7 @@
     top:100px;
     flex-direction:column;
     margin-top: 2rem;
+    margin-bottom: 6rem;
     padding:1rem .7rem;
  
 
@@ -46,6 +47,7 @@
   }
   .tag{
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     border-radius: 10px;
     width: 250px;
