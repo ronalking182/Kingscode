@@ -2,7 +2,7 @@
 title: "JavaScript Arrow Function"
 image: "/images/posts/javascript-function-and-function-expression/javascriptFunction.jpeg"
 excerpt: Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner way compared to regular functions
-date: '2022-11-07'
+date: '2022-04-07'
 slug: ‘javaScript-arrow-function’
 keywords: 'function, javascript function, functions in javascript, javascript arrow function, arrow function'
 isFeatured: false

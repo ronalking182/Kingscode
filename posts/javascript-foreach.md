@@ -2,7 +2,7 @@
 title: "Javascript forEach()"
 image: "/images/posts/javascript/javascript.png"
 excerpt: JavaScript's forEach method is one of several options for looping through arrays. Each method has its own set of benefits, and you must choose which one to use based on your requirements
-date: '2022-11-07'
+date: '2022-04-08'
 slug: ‘javascript-foreach’
 keywords: 'loops in javascript, loops forEach, forEach loop in javascript, forEach loop '
 isFeatured: false

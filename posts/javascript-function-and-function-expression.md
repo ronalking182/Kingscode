@@ -2,7 +2,7 @@
 title: "JavaScript Function and Function Expressions"
 image: "/images/posts/javascript-function-and-function-expression/javascriptFunction.jpeg"
 excerpt: By breaking down a complex problem into smaller chunks, you can make your program more understandable and reusable...
-date: '2022-11-07'
+date: '2022-04-07'
 slug: ‘javaScript-function-and-function-expressions’
 keywords: 'function, javascript function, functions in javascript'
 isFeatured: false
