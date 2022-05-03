@@ -14,9 +14,10 @@ const PostContent = ({content, categories,  title, image,}) => {
     JavaScript: 'yellow',
     CSS: 'blue',
     Git: 'green',
-    Java: 'purple',
+    Java: 'orange',
     Blog: 'red',
-    React: 'orange',
+    React: 'purple',
+    Nodejs: 'slate'
   }
   return <Fragment>
       <div className={classes.whole_post}>

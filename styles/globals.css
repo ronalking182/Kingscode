@@ -19,6 +19,9 @@
 .bg-red-600 {
   background-color: #a70b34;
 }
+.bg-orange-600 {
+  background-color: #a78a0b;
+}
 
 
 
@@ -102,7 +105,7 @@
   --background-color: #16161a;
   --link-color:#f3f1f0 !important;
   --card-background:#0f0e17;
-  --button-color:#ff8906;
+  --button-color:#e6ac30b0;
   --heading-color:#a7a9be;
   ---layout-color:hsl(280, 5%, 13%);
   color: var(--font-color);

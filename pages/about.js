@@ -12,9 +12,10 @@ export default function AboutMe({categories}) {
     JavaScript: 'yellow',
     CSS: 'blue',
     Git: 'green',
-    Java: 'purple',
+    Java: 'orange',
     Blog: 'red',
-    React: 'orange',
+    React: 'purple',
+    Nodejs: 'slate'
   }
 
   return (
